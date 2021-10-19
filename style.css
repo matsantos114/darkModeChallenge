@@ -1,0 +1,59 @@
+.inStock {
+    border-style: outset;
+    padding: 10px;
+    margin: 10px 0;
+    font-family: Helvetica;
+    background-color: rgb(219, 219, 219);
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500; 
+
+  }
+
+  .inStock div {
+      width: 18%;
+  }
+
+  .line {
+      width: 75px;
+  }
+
+  .darkMode {
+    background-color: rgb(49, 49, 49);
+  }
+
+  .darkMode .inStock  {
+    background-color: rgb(104, 104, 104);
+    color: white;   
+  }
+
+  .darkMode .line {
+    color: white;   
+  }
+
+  .darkMode #clickMe {
+    color: white;  
+  }
+
+  .darkMode h1 {
+      color: white; 
+  }
+  
+
+  #products{
+    padding: 10px;
+    margin: 10px 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+   
+  }
+
+  #clickMe {
+    padding: 3px;
+    border-style: solid;
+    margin: 2px 18px;
+    width: 140px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+  }
